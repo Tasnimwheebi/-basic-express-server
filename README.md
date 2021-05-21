@@ -6,7 +6,7 @@
 ## **Deployment Test**
 
 
-[PR LINK](https://github.com/Tasnimwheebi/basic-express-server/pull/1 )
+[PR LINK](https://github.com/Tasnimwheebi/basic-express-server/pull/2 )
 
 
 [Heroku APP](https://tasnim-basic-express-server.herokuapp.com/ )
