@@ -1,9 +1,15 @@
 'use strict';
 
+//////////////////////////////////////////
+// accessing the server.js //////////////
+////////////////////////////////////////
 const server = require('../src/server.js');
 const supertest = require('supertest');
 const request = supertest(server.app);
 
+//////////////////////////////////////////
+/// testing if there is query string in the query "no query"
+////////////////////////////////////////
 describe('server',()=>{
   it('should get 200 status',async()=>{
     const response = await request.get('/person?name=tasnim');
