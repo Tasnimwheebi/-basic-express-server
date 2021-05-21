@@ -49,4 +49,4 @@ npm test
 
 ## **UML**
 
-![UML](img/UML2.PNG)
+![UML](img/1.PNG)
