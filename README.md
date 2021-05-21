@@ -7,6 +7,8 @@
 
 
 [PR LINK](https://github.com/Tasnimwheebi/basic-express-server/pull/1 )
+
+
 [Heroku APP](https://tasnim-basic-express-server.herokuapp.com/ )
 
 ## **Setup**
@@ -17,7 +19,26 @@
 ## **Running the app**
 npm start
 
+* Endpoint :
+
+ <localhost:3000/person?name=>
+
+    [{"name":"tasnim"}]
+
+  * `/`
+            
+        Return Welcome to my web App
+
+  * `/bad` 
+
+          Something went wrong
+
+  * `*`
+
+        Page not found 404
 ## **Tests**
+npm test 
+![Test img](img/basic-express-server.PNG)
 
 * 404 on a bad route
 * 404 on a bad method
@@ -26,4 +47,6 @@ npm start
 * given an name in the query string, the output object is correct
 
 
-***Thank you!!***
+## **UML**
+
+![UML](img/UML2.PNG)
